@@ -21,7 +21,7 @@
                                     icon="fa-arrow-right" help="Done"
                                     attrs="{'invisible':[('state','!=','pending'),('state','!=','cancel')]}"/>
                             <button name="action_done" string="Pending"
-                                    type="object" icon="fa-arrow-right"
+                                    type="object" icon="fa-arrow-left"
                                     help="Pending"
                                     attrs="{'invisible':[('state','!=','done')]}"/>
                             <button name="action_cancel" string="Cancel"
