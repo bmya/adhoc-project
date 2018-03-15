@@ -24,6 +24,10 @@
                                     type="object" icon="fa-arrow-left"
                                     help="Pending"
                                     attrs="{'invisible':[('state','!=','done')]}"/>
+                            <button name="action_done" string="Pending"
+                                    type="object" icon="fa-money"
+                                    help="Pending"
+                                    attrs="{'invisible':[('state','!=','done')]}"/>
                             <button name="action_cancel" string="Cancel"
                                     type="object" icon="fa-ban"
                                     help="Cancel" attrs="{'invisible':[('state','=','cancel')]}"/>
